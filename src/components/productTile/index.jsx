@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 export default function ProductTile({ item }) {
   const navigate = useNavigate()
   function handleItem(id) {
-    console.log(id)
+    // console.log(id)
     navigate(`/product-details/${id}`)
   }
   return (
